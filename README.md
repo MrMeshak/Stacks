@@ -9,7 +9,7 @@ Stacks is a trello clone that alows users create lists and todos to help organis
 This aim of this project was to help me to develop skills in implementing the MERN stack.
 
 ## Features
-#
+
 - Ability to create/delete Cards
 - Ability to create/delete/update Stacks
 - Ability to create/delete/update Libraries
@@ -19,7 +19,7 @@ This aim of this project was to help me to develop skills in implementing the ME
 - Color themes for stacks 
 
 ## Main Technologies
-#
+
 
 ### Frontend
 - ReactJS with Typescript
@@ -33,6 +33,6 @@ This aim of this project was to help me to develop skills in implementing the ME
 - Mongoose
 
 ## Future Imporovements
-#
+
 - Drag and Drop functionality to reorganise cards
 - Athentication and User Login 
