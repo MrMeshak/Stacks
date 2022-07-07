@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+#  Stacks 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="src/assets/Images/stacksWeb.png" width="100%"/>
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Stacks is a trello clone that alows users create lists and todos to help organise their work and boost productivity. 
 
-### `npm start`
+This aim of this project was to help me to develop skills in implementing the MERN stack.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
+#
+- Ability to create/delete Cards
+- Ability to create/delete/update Stacks
+- Ability to create/delete/update Libraries
+- Responsive Design Scales for Mobile and Desktop
+- Clean and intuitive UI
+- Color accent and completed checkbox for Cards
+- Color themes for stacks 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Main Technologies
+#
 
-### `npm test`
+### Frontend
+- ReactJS with Typescript
+- Redux Toolkit
+- Styled Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
+- NodeJS with Typescript
+- MongoDB
+- Express
+- Mongoose
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Future Imporovements
+#
+- Drag and Drop functionality to reorganise cards
+- Athentication and User Login 
