@@ -2,6 +2,7 @@
 
 <img src="src/assets/Images/stacksWeb.png" width="100%"/>
 
+<a href="https://mrmeshak.github.io/stacks/" target="_blank">Stacks Demo</a>
 ## Overview
 
 Stacks is a trello clone that alows users create lists and todos to help organise their work and boost productivity. 
