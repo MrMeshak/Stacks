@@ -2,7 +2,8 @@ import axios from "axios";
 import { ILibrary, ILibraryDetails } from "../../store/library/libraryModels";
 
 export const axiosCollection = axios.create({
-    baseURL: "http://localhost:4000/api/",
+    //baseURL: "http://localhost:4000/api/",
+    baseURL: "https://stacks-app.herokuapp.com/api",
     timeout: 4000
 })
 

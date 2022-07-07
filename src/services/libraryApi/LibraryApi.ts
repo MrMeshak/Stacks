@@ -1,7 +1,8 @@
 import axios from 'axios'
 
 export const axiosLibrary = axios.create({
-    baseURL: "http://localhost:4000/api/",
+    //baseURL: "http://localhost:4000/api/",
+    baseURL: "https://stacks-app.herokuapp.com/api",
     timeout: 4000
 })
 
