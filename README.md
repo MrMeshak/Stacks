@@ -5,7 +5,7 @@
 <a href="https://mrmeshak.github.io/stacks/" target="_blank">Stacks Demo</a>
 ## Overview
 
-Stacks is a trello clone that alows users create lists and todos to help organise their work and boost productivity. 
+Stacks is a trello clone that allows users create lists and todos to help organise their work and boost productivity. 
 
 This aim of this project was to help me to develop skills in implementing the MERN stack.
 
