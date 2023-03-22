@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ILibrary, ILibraryDetails } from '../../store/library/libraryModels';
+import { ILibrary } from '../../store/library/libraryModels';
 
 export const axiosCollection = axios.create({
   //baseURL: "http://localhost:4000/api/",
