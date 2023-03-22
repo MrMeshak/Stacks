@@ -1,28 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 import NavBar from './components/layout/NavBar/NavBar';
-import Library from './views/Library/Library/Library';
-import EditStackForm from './components/forms/StackForms/EditStackForm';
-import CollectionPage from './views/Collection/Collection/Collection';
 import Collection from './views/Collection/Collection/Collection';
+import Library from './views/Library/Library/Library';
 
 function App() {
-const collectionId = "62c3bc42c4aecb920e9c5825"
+  const collectionId = '62c3bc42c4aecb920e9c5825';
   return (
     <>
-      <GlobalStyle/>
-      <div className="App" style={{position: "relative"}}>
-        <NavBar/>
-        <Collection collectionId={collectionId}/>
-        <Library/>
+      <GlobalStyle />
+      <div className="App" style={{ position: 'relative' }}>
+        <NavBar />
+        <Collection collectionId={collectionId} />
+        <Library />
       </div>
     </>
   );
 }
 
 export default App;
-
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -63,4 +58,4 @@ export const GlobalStyle = createGlobalStyle`
     #root, #__next {
         isolation: isolate;
     }
-`
+`;

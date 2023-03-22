@@ -1,16 +1,12 @@
-import * as React from 'react';
-import styled from 'styled-components'
-import * as S from './NavBar.styles'
 import Logo from '../../atoms/logo/Logo';
+import * as S from './NavBar.styles';
 
-export interface INavBarProps {
-}
+export interface INavBarProps {}
 
-export default function NavBar (props: INavBarProps) {
+export default function NavBar(props: INavBarProps) {
   return (
     <S.NavBar>
-        <Logo/>
+      <Logo />
     </S.NavBar>
   );
 }
-
