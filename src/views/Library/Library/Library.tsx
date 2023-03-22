@@ -16,7 +16,7 @@ export default function Library(props: ILibraryProps) {
 
   useEffect(() => {
     dispatch(fetchLibrary({ libraryId: testLibraryId }));
-  }, []);
+  }, [dispatch]);
 
   const library = useAppSelector((state) => {
     return state.library.library;

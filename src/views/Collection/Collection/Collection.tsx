@@ -23,7 +23,7 @@ export default function CollectionPage(props: ICollectionPageProps) {
         collectionId: props.collectionId
       })
     );
-  }, []);
+  }, [dispatch, props.collectionId]);
 
   const libraries = useAppSelector((state) => {
     console.log(state.collection.libraries);
